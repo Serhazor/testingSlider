@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Card Component */
+.fa-times-circle {
+  font-size: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.fa-times-circle:hover {
+  opacity: 1;
+}
+
+.fa-folder-open {
+  font-size: 1.5vw;
+  
+}
+.fa-plus, .fa-thumbs-up, .fa-thumbs-down, .fa-angle-down, .fa-book-open {
+  font-size: 1.5vw;
+  color: #ffff;
+}
+.fa-chevron-circle-down {
+  font-size: 2vw;
+  color: seagreen;
+  z-index: 11;
+  opacity: 1;
+  
+}
+/******************/
